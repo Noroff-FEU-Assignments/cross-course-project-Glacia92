@@ -286,6 +286,10 @@ li {
   color: #565252;
 }
 
+.footer_mob{
+  display: none;
+}
+
 footer{
   font-family: Verdana, sans-serif;
   display: flex;
@@ -308,4 +312,80 @@ footer a{
 
 .footer_right{
   margin: auto;
+}
+
+@media screen and (max-width: 600px){
+.logo{
+  width: 120px;
+  height: 100px;
+  position: relative;
+  left: 35%;
+}
+
+section h2{
+  font-size: 30px;
+  margin-left: 5px;
+}
+
+.dropmenu, .search_bar, #cart_icon, #profile_icon{
+  display: none;
+}
+
+.row{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.column{
+ position: relative;
+margin: auto;
+}
+
+.column img{
+  width: 500px;
+  height: 300px;
+}
+
+.column h3{
+  font-size: 30px;
+  position: relative;
+  bottom: 40px;
+}
+
+.join img{
+  width: 480px;
+  height: 100px;
+  position: relative;
+  top: 40px;
+}
+h3{
+  font-size: 20px;
+
+}
+
+ ul{
+  display: none;
+}
+
+.footer_mob{
+  display: flex;
+  height: 30%;
+}
+
+.footer_mob img{
+  height: 20px;
+  width: 20px;
+  position: relative;
+  top: 45px;
+  left: 70px;
+}
+
+.footer_mob h4{
+  display: inline;
+  margin-left: 80px;
+  font-size: 30px;
+  font-family: "Big Space", Verdana, sans-serif;
+}
 }

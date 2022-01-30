@@ -202,3 +202,30 @@ li {
   .footer_right{
     margin: auto;
   }
+
+  @media screen and (max-width: 600px){
+    .logo{
+      width: 120px;
+      height: 100px;
+      position: relative;
+      left: 35%;
+    }
+    
+    h2{
+      font-size: 30px;
+      margin-left: 5px;
+    }
+    
+    .dropmenu, .search_bar, #cart_icon, #profile_icon{
+      display: none;
+    }
+
+    p{
+      font-size: 14px;
+      line-height: 25px;
+    }
+
+    img{
+      width: 30%;
+    }
+  }
