@@ -1,0 +1,311 @@
+@font-face{
+    font-family: "Big Space";
+    src: url(big_space.woff);
+}
+
+body{
+    background: #CFC2AE;
+    font-family: Verdana, sans-serif;
+    font-size: 1.1vw;
+    color: #565252;
+}
+
+h1{
+  font-family: "Big Space", Verdana, sans-serif;
+  font-size: 2.1vw;
+  font-weight: lighter;
+  color: #565252;
+}
+
+h3{
+  font-weight: lighter;
+  font-size: 2.1vw;
+  font-weight: lighter;
+  color: #565252;
+}
+
+a{
+  text-decoration: none;
+  color: #AC6840;
+}
+
+.logo{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: 20px;
+    width: 10vw;
+    height: 7.8vw;
+}
+
+.navbar{
+    margin-left: 14vw;
+    margin-top: 4vw;
+overflow: hidden;
+background-color: #CFC2AE;
+font-family: "Big Space";
+}
+
+button:hover{
+  background-color: #E8DDCD;
+  cursor: pointer;
+}
+
+nav{
+  display: none;
+}
+
+.navbar a{
+    float: left;
+    font-size: 1.8vw;
+    color: #565252;
+    text-align: center;
+    text-decoration: none;
+}
+
+.dropmenu{
+    float: left;
+    overflow: hidden;
+}
+
+
+.dropmenu, .button, .store{
+    font-size: 2.4vw;
+    border: none;
+    outline: none;
+    color: #565252;
+    padding: 1vw 2.2vw;;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.store{
+  color: #AC6840;
+}
+
+.subcontent{
+    display: none;
+    position: absolute;
+    background-color: #CFC2AE;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.subcontent a{
+    float: none;
+    color: #565252;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.subcontent a:hover{
+    background-color: #F1E7D8dd;
+}
+
+.dropmenu:hover .subcontent{
+    display: block;
+}
+
+
+
+.search_bar{
+  position: absolute;
+  top: 6.5vw;
+  right: 20vw;
+}
+
+#search-text-input{
+text-align: center;
+font-size: 1.3vw;
+background: #CFC2AE;
+width: 12vw;
+height: 1.8vw;
+margin-bottom: 8vw;
+border-radius: 4%;
+}
+
+
+#cart_icon{
+  height: 4.2vw;
+  width: 4.2vw;
+  position: absolute;
+  right: 11vw;
+  top: 6vw;
+}
+
+
+#profile_icon{
+height: 6vw;
+width: 6vw;
+position: absolute;
+right: 3vw;
+top: 4.8vw;
+}
+
+.slideshow-container {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+}
+
+.text {
+  position: absolute;
+  top: 38%;
+  left: 22%;
+  width: 100%;
+  text-align: center;
+  color: #565252;
+}
+
+.text h2{
+  font-family: "Big Space", Verdana, sans-serif;
+font-size: 2.4vw;
+
+}
+
+.text p{
+  font-family: Verdana, sans-serif;
+  font-size: 1.5vw;
+}
+
+.text a{
+  text-decoration: none;
+  color: #AC6840;
+  cursor: pointer;
+}
+
+.dot-container{
+  text-align: center;
+  position: static;
+  margin-top: -9vw;
+}
+
+.dot {
+  cursor: pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px ;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  transition: 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #AC6840;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.2s;
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.2s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+section h2{
+  font-family: "Big Space", Verdana, sans-serif;
+  color: #565252;
+  font-size: 2.4vw;
+  font-weight: lighter;
+}
+
+section img{
+  display: block;
+  float: left;
+  padding-top: 5vw;
+
+}
+
+.row{
+  display: flex;
+  position: static;
+  top: 3vw;
+  justify-content: center;
+  align-content: center;
+}
+
+.column{
+  padding: 5px;
+  margin: 3px;
+}
+
+.column img{
+  width: 20vw;
+  height: 21vw;
+}
+
+.column a{
+  color: #fff;
+}
+
+
+section h3{
+position: relative;
+bottom: 3vw;
+text-align: center;
+font-family: Verdana, sans-serif;
+font-weight: bold;
+font-size: 1.5vw;
+color: #fff;
+opacity: 0.9;
+}
+
+.join img{
+  width: 90%;
+  height: 3%;
+  position: relative;
+  margin-left: 6%;
+}
+
+.join h3{
+  position: relative;
+  margin-left: 20%;
+  bottom: 9vw;
+}
+
+li {
+  list-style: none;
+  text-align: center;
+  font-size: 1.4vw;
+  margin-top: 2vw;
+  padding: 4px;
+  color: #565252;
+}
+
+footer{
+  font-family: Verdana, sans-serif;
+  display: flex;
+  height: 20%;
+  background: #D5CEC4;
+  margin-top: 8%;
+}
+
+footer a{
+  color: #565252;
+}
+
+.footer_left{
+  margin: auto;
+}
+
+.footer_middle{
+  margin: auto;
+}
+
+.footer_right{
+  margin: auto;
+}

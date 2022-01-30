@@ -1,0 +1,106 @@
+@font-face{
+    font-family: "Big Space";
+    src: url(big_space.woff);
+}
+
+body{
+    background: #CFC2AE;
+    font-family: Verdana, sans-serif;
+    font-size: 1.1vw;
+    color: #565252;
+}
+
+h3{
+  font-weight: lighter;
+  font-size: 2.1vw;
+  font-weight: lighter;
+  color: #565252;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+    font-size: 1.4vw;
+    margin-top: 2vw;
+    padding: 4px;
+    color: #565252;
+  }
+  
+  footer{
+    font-family: Verdana, sans-serif;
+    display: flex;
+    height: 20%;
+    background: #D5CEC4;
+    margin-top: 20%;
+  }
+  
+  footer a{
+    color: #565252;
+  }
+  
+  .footer_left{
+    margin: auto;
+  }
+  
+  .footer_middle{
+    margin: auto;
+  }
+  
+  .footer_right{
+    margin: auto;
+  }
+
+  form{
+      position: relative;
+      top: 10vw;
+      left: 8vw;
+  }
+
+  p{
+      display: inline;
+      margin-right: 1vw;
+  }
+
+  input{
+      background: #C9AF87;
+      padding: 1.5vw;
+      border-radius: 25px;
+      text-align: center;
+      font-size: 1.3vw;
+      margin: 1vw;
+  }
+  .form_cont{
+      display: flex;
+  }
+
+ .form_cont input{
+     display: block;
+ }
+
+ .form2{
+     position: relative;
+     left: 35%;
+ }
+
+ h1{
+    font-family: "Big Space", Verdana, sans-serif;
+    font-size: 2.1vw;
+    font-weight: lighter;
+    color: #AC6840;
+     position: relative;
+     top: 3%;
+ }
+ 
+ #submit{
+    width: 60%;
+    border-radius: 50px;
+    color: #565554;
+    position: relative;
+    left: 3vw;
+    margin-top: 4vw;
+    }
+    
+#submit:hover{
+background-color: #707070;
+color: #FFFF95;
+}
